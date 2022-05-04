@@ -1,11 +1,8 @@
 <template>
   <header class="navbar-container">
     <h1 class="text-logo">CHINOU</h1>
-    <a target="_blank" href="https://github.com/chinouvm" class="hide"
+    <a target="_blank" href="https://github.com/chinouvm" class="git-button"
       ><i class="fa-brands fa-github"></i
-    ></a>
-    <a target="_blank" href="https://github.com/chinouvm" class="show git-button"
-      >Visit my Github <i class="fa-brands fa-github"></i
     ></a>
   </header>
 </template>
@@ -31,36 +28,11 @@
     color: white;
     margin-right: 3rem;
     margin-top: 1.5rem;
-    border: 2px solid #ffffff;
-    border-radius: 25px;
-    padding: 10px 40px 10px 40px;
+    font-size: 3rem;
     transition: all 0.1s ease;
   }
 
   .git-button:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
-  .hide {
-    display: none;
-  }
-
-  @media screen and (max-width: 1750px) {
-    .show {
-      display: none;
-    }
-
-    .hide {
-      display: flex;
-      text-decoration: none;
-      color: white;
-      font-size: 2.5rem;
-      margin-right: 3rem;
-      margin-top: 1.5rem;
-    }
-
-    .navbar-container {
-      display: fixed;
-    }
+    color: rgba(255, 255, 255, 0.5);
   }
 </style>

@@ -1,24 +1,3 @@
-<!-- <template>
-  <div class="footer-container">
-    <div class="icons">
-      <a target="_blank" href="https://github.com/chinouvm" class="social"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
-      <a target="_blank" href="https://www.instagram.com/chinouvm/" class="social instagram"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
-      <a target="_blank" href="mailto:me@chinou.nl" class="social"
-        ><i class="fa-solid fa-envelope"></i
-      ></a>
-    </div>
-    <div class="footer-text">
-      <p class="text">
-        Made with <i class="fa-solid fa-heart"></i> &copy; {{ new Date().getFullYear() }}
-      </p>
-    </div>
-  </div>
-</template> -->
-
 <template>
   <div class="footer-basic">
     <footer class="footer-container">
@@ -43,8 +22,9 @@
 <style scoped>
   .footer-basic {
     height: 21rem;
-    background: url('~/assets/img/footerbg.png') no-repeat;
-    background-position: bottom;
+    background: url('~/assets/img/footerbg.webp') no-repeat;
+    background-color: #202020;
+    background-position: top;
     background-size: cover;
   }
 

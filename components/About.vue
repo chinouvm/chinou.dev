@@ -1,7 +1,8 @@
 <template>
-  <section id="About" class="about-section">
-    <div class="about-text">
-      <h1 class="title">ABOUT</h1>
+  <section id="about" class="about-section">
+    <div class="about-img">
+      <img class="normal" src="~/assets/img/about.webp" alt="About" />
+      <img class="thin" src="~/assets/img/aboutthin.webp" alt="About" />
     </div>
   </section>
 </template>
@@ -9,56 +10,60 @@
 <style scoped>
   .about-section {
     height: 100vh;
-    margin-left: -1px;
-    background: url('~/Assets/img/bg2.png') no-repeat;
+    background-color: #202020;
     background-size: cover;
-    background-position: center;
-  }
-
-  .about-text {
-    color: white;
+    background-position: top;
     display: flex;
-    text-align: center;
-    flex-direction: column;
-    height: 100%;
-    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
   }
 
-  .title {
-    font-family: 'Sans Forgetica';
-    font-size: 7rem;
-    letter-spacing: 1.5rem;
+  .thin {
+    display: none;
   }
 
-  /* Media Queries */
-  @media screen and (max-width: 830px) {
-    .title {
-      font-size: 5rem;
+  @media screen and (max-width: 1590px) {
+    .about-img img {
+      scale: 0.8;
     }
   }
 
-  @media screen and (max-width: 620px) {
-    .title {
-      font-size: 4rem;
+  @media screen and (max-width: 1300px) {
+    .about-img img {
+      scale: 0.7;
     }
   }
 
-  @media screen and (max-width: 520px) {
-    .title {
-      font-size: 3rem;
+  @media screen and (max-width: 1050px) {
+    .normal {
+      display: none;
+    }
+
+    .thin {
+      display: flex;
     }
   }
 
-  @media screen and (max-width: 445px) {
-    .title {
-      font-size: 2.5rem;
-      margin-left: 20px;
+  @media screen and (max-width: 500px) {
+    .normal {
+      display: none;
+    }
+
+    .thin {
+      display: flex;
+      width: 45rem;
     }
   }
 
-  @media screen and (max-width: 380px) {
-    .title {
-      font-size: 2.1rem;
+  @media screen and (max-width: 345px) {
+    .normal {
+      display: none;
+    }
+
+    .thin {
+      display: flex;
+      width: 40rem;
     }
   }
 </style>

@@ -23,6 +23,18 @@
     display: none;
   }
 
+  @media screen and (max-height: 1200px) {
+    .about-img img {
+      scale: 0.8;
+    }
+  }
+
+  @media screen and (max-height: 950px) {
+    .about-img img {
+      scale: 0.6;
+    }
+  }
+
   @media screen and (max-width: 1590px) {
     .about-img img {
       scale: 0.8;

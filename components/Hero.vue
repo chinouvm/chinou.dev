@@ -8,8 +8,8 @@
             'Student ICT & Infrastructure',
             'Knows how to center a div.',
             'Knows how to exit vim.',
-            'What\'s Stackoverflow?',
-            'Loads of undocumented features.',
+            'What is Stackoverflow?',
+            'Loads of “undocumented features”.',
             'P E B C A K',
           ]"
           :typeSpeed="50"

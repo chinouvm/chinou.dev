@@ -15,7 +15,7 @@ export default defineNuxtConfig({
           name: 'description',
           content: 'Persoonlijke website van Chinou van Maris',
         },
-        { name: 'theme-color', content: '#459cff' },
+        { name: 'theme-color', content: '#00C9FF' },
         { content: 'IE=edge', httpEquiv: 'X-UA-Compatible' },
         { property: 'og:site_name', content: 'Esie' },
         { property: 'author', content: 'Chinou' },
@@ -30,7 +30,6 @@ export default defineNuxtConfig({
           content: 'Persoonlijke website van Chinou van Maris',
         },
         { property: 'og:url', content: 'https://chinou.dev' },
-        { property: 'og:image', content: 'https://chinou.dev/favicon.png' },
         { name: 'robots', content: 'all, index, follow' },
         {
           name: 'keywords',
@@ -39,7 +38,6 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        { rel: 'icon', href: '/favicon.png' },
         {
           rel: 'stylesheet',
           href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',

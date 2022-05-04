@@ -1,43 +1,33 @@
 <template>
-  <section class="hero-section">
-    <div class="hero-text">
-      <h1 class="title">Chinou</h1>
-      <p class="subtitle">
-        <i class="fa-solid fa-graduation-cap"></i> Student ICT & Infrastructure
-      </p>
+  <section id="About" class="about-section">
+    <div class="about-text">
+      <h1 class="title">ABOUT</h1>
     </div>
   </section>
 </template>
 
 <style scoped>
-  .hero-section {
+  .about-section {
     height: 100vh;
     margin-left: -1px;
-    background: url('~/Assets/img/bg.svg') no-repeat;
+    background: url('~/Assets/img/bg2.png') no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .hero-text {
+  .about-text {
     color: white;
     display: flex;
-    justify-content: center;
     text-align: center;
     flex-direction: column;
     height: 100%;
+    padding-top: 5rem;
   }
 
   .title {
-    font-family: 'CustomFont';
+    font-family: 'Sans Forgetica';
     font-size: 7rem;
     letter-spacing: 1.5rem;
-  }
-
-  .subtitle {
-    font-weight: bold;
-    font-size: 1.4rem;
-    padding-top: 30px;
-    color: #00c9ff;
   }
 
   /* Media Queries */
@@ -45,29 +35,17 @@
     .title {
       font-size: 5rem;
     }
-
-    .subtitle {
-      font-size: 1.3rem;
-    }
   }
 
   @media screen and (max-width: 620px) {
     .title {
       font-size: 4rem;
     }
-
-    .subtitle {
-      font-size: 1.1rem;
-    }
   }
 
   @media screen and (max-width: 520px) {
     .title {
       font-size: 3rem;
-    }
-
-    .subtitle {
-      font-size: 1rem;
     }
   }
 
@@ -76,19 +54,11 @@
       font-size: 2.5rem;
       margin-left: 20px;
     }
-
-    .subtitle {
-      font-size: 0.9rem;
-    }
   }
 
   @media screen and (max-width: 380px) {
     .title {
       font-size: 2.1rem;
-    }
-
-    .subtitle {
-      font-size: 0.5rem;
     }
   }
 </style>

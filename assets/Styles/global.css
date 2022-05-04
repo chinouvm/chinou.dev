@@ -4,6 +4,11 @@
   src: local('CustomFont'), url('~/assets/Font/CustomFont.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Sans Forgetica';
+  src: local('SF'), url('~/assets/Font/SF.otf') format('opentype');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

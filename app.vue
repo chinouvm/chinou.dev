@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Nav />
-    <Hero />
-  </div>
+  <Nav />
+  <Hero />
+  <About />
+  <Footer />
 </template>

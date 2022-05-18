@@ -1,17 +1,14 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-5a10fc28.mjs",
+    "file": "entry-f0fb9c41.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "css": [
-      "entry.f7aab50c.css"
+      "entry.b27c7697.css"
     ],
     "assets": [
-      "about.a8267878.webp",
-      "aboutthin.8f25d55e.webp",
       "SF.762820a5.otf",
       "Jetbrains.50e1dcb4.ttf",
-      "bg.b05d0815.webp",
       "footerbg.3e55e662.webp"
     ]
   }

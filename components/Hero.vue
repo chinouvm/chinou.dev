@@ -9,7 +9,7 @@
             'Knows how to center a div.',
             'Knows how to exit vim.',
             'What is Stackoverflow?',
-            'Loads of “undocumented features”.',
+            'Lots of “undocumented features”.',
             'P E B C A K',
           ]"
           :typeSpeed="50"
@@ -32,10 +32,7 @@
 <style>
   .hero-section {
     height: 100vh;
-    background: url('~/Assets/img/bg.webp') no-repeat;
     background-color: #202020;
-    background-size: cover;
-    background-position: bottom;
   }
 
   .hero-text {
